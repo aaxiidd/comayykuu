@@ -1,0 +1,175 @@
+.keterangan{
+	background-color: currentColor;
+	animation-name: warna;
+	animation-duration: 100s;
+	animation-iteration-count: infinite;
+	border-radius: 40px 40px 40px 40px;
+	padding-top: 1px;
+	padding-bottom: 50px;
+	margin-top: 80px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+@keyframes warna {
+	0% {color: white; }
+	10% {color: pink;}
+	20% {color: white; }
+	30% {color: pink;}
+	40% {color: white; }
+	50% {color: pink;}
+	60% {color: white; }
+	70% {color: pink;}
+	80% {color: white; }
+	90% {color: pink;}
+	100% {color: white;}
+}
+
+.from p{
+	color: black;
+	background-color: white;
+	width: 160px;
+	border-radius: 20px 20px 20px 20px;
+	height: 34px;
+	text-align: left;
+	padding-top: 8px;
+	padding-left: 10px;
+	font-family: Arial;
+	font-size: 12px;
+	margin-top: 10px;
+	margin: auto;
+	position: relative;
+	right: 137px;
+	top: 25px;
+
+}
+
+
+.atas p {
+
+	width: 440px;
+	margin: auto;
+	border-radius: 40px 40px 0 0;
+	margin-top: 35px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-family: Verdana;
+	font-weight: bold;
+}
+.isi p {
+	width: 380px;
+	height: 170px;
+	margin: auto;
+	color: black;
+	background-color: white;
+	padding: 30px;
+	font-family: Arial;
+	text-align: center;
+	margin-top: -1px;
+}
+.end p {
+	background-color: white;
+	width: 440px;
+	height:80px;
+	text-align: center;
+	color: black;
+	margin: auto;
+	border-radius: 0 0 40px 40px;
+	margin-top: -5px;
+}
+.luar1 {
+	background-color: currentColor;
+	animation-name: warna;
+	animation-duration: 100s;
+	animation-iteration-count: infinite;
+	margin-top: 20px;
+	border-radius: 100px 100px 100px 100px;
+	height: 140px;
+	width: 140px;
+	position: relative;
+	margin: auto;
+	margin-top: 20px; 
+
+}
+.profile img {
+	border-radius: 100px 100px 100px 100px;
+	height: 130px;
+	width: 130px;
+	position: relative;
+	left: 5px;
+	top: 5px;
+
+}
+.date{
+	border: 9px solid currentColor;
+	margin-top: 20px;
+	animation-name: warna;
+	animation-duration: 100s;
+	animation-iteration-count: infinite;
+	border-radius: 40px 40px 40px 40px;
+	background-color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.date p {
+	color: black;
+	font-family: arial;
+	font-size: 18px;
+	padding: 1px;
+	text-align: center;
+	border-radius: 40px 40px 40px 40px;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+.akhir{
+	border: 9px solid currentColor;
+	margin-top: 20px;
+	animation-name: warna;
+	animation-duration: 100s;
+	animation-iteration-count: infinite;
+	border-radius: 40px 40px 40px 40px;
+	background-color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.akhir p {
+	color: black;
+	font-family: arial;
+	font-size: 18px;
+	padding: 1px;
+	text-align: center;
+	border-radius: 40px 40px 40px 40px;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+body {
+ background-color: currentColor;
+ animation-name: colorchange;
+ animation-duration: 100s;
+ animation-iteration-count: infinite;
+ width: 600px;
+ margin: auto;
+ height: 900px;
+ padding: -90px;
+
+
+}
+a{
+	color: blue;
+}
+@keyframes colorchange {
+	0% {color: pink; }
+	10% {color: white;}
+	20% {color: pink; }
+	30% {color: white;}
+	40% {color: pink; }
+	50% {color: white;}
+	60% {color: pink; }
+	70% {color: white;}
+	80% {color: pink; }
+	90% {color: white;}
+	100% {color: pink;}
+}
